@@ -16,6 +16,9 @@
 .ui-menu-color-download{
     background-color: #525252;
 }
+.bg-color-three-reason{
+    background-color: #fff;
+}
 /*-------------------------special padding/margins/text--------*/
 
 .uppercase{
@@ -30,7 +33,19 @@ h1,h2,h3,h4,h5{
     color:#fafafa;
     font-weight: 300;
 }
-
+.row-table{
+    display: table;
+}
+.section-column{
+    display: table-cell;
+    padding:0 30px 30px;
+    float: none;
+}
+.section-heading{
+    font-family: "Exo",sans-serif;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
 /*-------------------------heading--------*/
 header{
     margin: 0;
@@ -133,4 +148,35 @@ footer{
 }
 .cv-pdf i:hover{
     color:#e84610;
+}
+.social-links{
+    padding-bottom: 15px;
+    padding-top: 5px;
+}
+.social-links li a i {
+
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding:12px 0;
+    border-radius: 50%;
+    background-color: #8f8f8f;
+    color: #fafafa;
+    line-height: 16px;
+     transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+.social-links li a i:hover{
+   color:#e84610; 
+}
+
+.list-inline-item{
+    padding-left: 25px;
+}
+#footer-details{
+    
+    padding: 20px;
 }
