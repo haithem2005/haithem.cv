@@ -283,5 +283,7 @@ margin-bottom: 15px;
     left: -6px;
     content: '';
     background-color: #fafafa;
-    
+}
+.history-items{
+    margin-bottom: 30px;
 }
