@@ -69,7 +69,7 @@ header{
 }
 
 .logo{
-    background: url("/assets/images/hmz-phot-12.jpg");
+    background: url("../images/hmz-phot-12.jpg");
    /* background-position: center;*/
     background-repeat: no-repeat;
     background-size: cover;
